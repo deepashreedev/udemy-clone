@@ -11,7 +11,7 @@ body {
     padding: 10px 25px;
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgba(182, 182, 182, 0.692);
     gap: 10px;
     align-items: center;
     position: sticky;
@@ -56,18 +56,35 @@ body {
     display: flex;
     gap: 25px;
     align-items: center;
+   
 }
+/* .navbar__s3 p, i{
+     border: 1px solid rgb(255, 255, 255);
+}
+ */
 
+.navbar__s3 p:hover{
+background-color:#EDE5F9;
+padding: 8px;
+border-radius: 5px;
+}
+ .navbar__s3 i:hover{
+background-color:#EDE5F9;
+padding: 10px;
+border-radius: 5px;
+}
+ 
 .navbar__s3 p {
     color: #303141;
     font-size: 15px;
 }
 
-.navbar__s3 :hover {
+/* .navbar__s3 :hover {
     background-color: #EDE5F9;
     padding: 10px;
     border-radius: 5px;
-}
+} */
+
 
 /* .navbar__s3 .mylearning:hover{
  background-color: #EDE5F9;
@@ -95,7 +112,7 @@ body {
     border-top: 2px solid rgba(158, 158, 158, 0..95);
     border-left: 2px solid rgba(158, 158, 158, 0..95);
     right: 0;
-    top: 110%;
+    top: 140%;
     display: none;
 }
 
@@ -108,10 +125,10 @@ body {
 
 .categories {
     display: flex;
-    padding: 10px;
-    /* border-bottom: 1px solid rgb(182, 182, 182); */
+    padding: 15px;
+    border-bottom: 2px solid rgba(127, 121, 135, 0.167);
     justify-content: space-evenly;
-    border-bottom: 1px solid #cdcdd5;
+    /* border-bottom: 1px solid #cdcdd5; */
 }
 
 .categories p {
@@ -119,18 +136,25 @@ body {
     font-size: 15px;
     padding: 10px 15px 10px 15px;
     text-align: center;
-
+    /* background-color:#892DE1;
+    color: white; */
     background-color: #f3e9fd;
     border: 1px solid #ba7bf5;
     border-radius: 30px;
+    /* border: 3px solid rgba(238, 232, 232, 0.19); */
 }
+
 
 
 
 .categories :hover {
     cursor: pointer;
-    color: #fefdff;
-    background-color: #892DE1;
+    transition: 1s;
+    color: #000000;
+      border: 1px solid #f1e9f1;
+    /* color: #111116; */
+    /* border: 3px solid rgba(238, 232, 232, 0.19); */
+    background-color: #ddbee4c2;
 }
 
 /* Sale section */
@@ -154,22 +178,24 @@ body {
      border-top: 3px solid #f2f3f8e4;
    border-left: 3px solid #f2f3f8e7;
    box-shadow: 3px 3px 5px #d3d4dcac;
+animation-name: zoom;
+animation-duration: 3s;
+opacity: 0;
+animation-fill-mode: forwards;
 }
 
+@keyframes zoom {
+    0%{
+transform: scale(0);
+opacity: 0;
+    }
 
-/* 
-.sale-image__offer{
-    width: 25%;
-    background-color: white;
-    padding: 15px;
-    position: absolute;
-    top: 20%;
-    left: 95px;
-     width: 25%;
-     border-top: 3px solid #f2f3f8e4;
-    border-left: 3px solid #f2f3f8e7;
-    box-shadow: 3px 3px 5px #d3d4dcac;
-} */
+    100%{
+transform: scale(1);
+opacity: 1;
+    }
+}
+
 /* .sale-image__offer {
     position: absolute;
     height: 200px;
@@ -626,108 +652,3 @@ font-weight: bolder;
 
 
 
-
-
-/* 
-
-@media (max-width: 768px) {
-    .sale-image__des {
-        position: absolute;
-        width: 90%;
-        height: auto;
-        margin: 135px auto 0 auto;
-        padding: 15px;
-        box-shadow: none;
-
-    }
-
-    .sale-image__des h1 {
-        font-size: 22px;
-    }
-
-    .sale-image__des p {
-        font-size: 14px;
-    }
-
-    .sale-image__des button {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .recommended {
-        margin-top: 140px;
-    }
-
-    .course-card {
-        width: 200px;
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Gabarito", sans-serif;
-}
-
-.navbar {
-    padding: 10px 25px;
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid rgb(182, 182, 182);
-    gap: 10px;
-    align-items: center;
-
-}
-
-.navbar__s1 {
-    display: flex;
-    align-items: center;
-}
-
-
-.navbar__s1 img {
-    height: 33px;
-    width: 96px;
-}
-
-.navbar__s2 {
-    padding: 15px;
-    border: 1px solid #90919C;
-    border-radius: 30px;
-    width: 70%;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.navbar__s2 input {
-    border: none;
-    width: 100%;
-    font-size: 14px;
-}
-
-.navbar__s2 input:focus {
-    outline: none;
-}
-
-.navbar__s3 {
-    display: flex;
-    gap: 25px;
-    align-items: center;
-}
-
-.navbar__s3 p {
-    color: #303141;
-    font-size: 15px;
-}
-
-.navbar__s3 :hover {
-    background-color: #EDE5F9;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.navbar__s1 img,
-.navbar__s3 :hover {
-    cursor: pointer;
-}
