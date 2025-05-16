@@ -637,7 +637,7 @@ display: none;
 }
 
 .subdiv__1, .subdiv__2, .subdiv__3, .subdiv__4, .subdiv__5, .subdiv__6, .subdiv__7, .subdiv__8{
-    width: 180px;
+    width: 160px;
     padding: 20px;
     /* font-size: 10px; */
 }
@@ -646,7 +646,7 @@ display: none;
     font-size: 14px;
 }
 .f3__subdiv__1, .f3__subdiv__2, .f3__subdiv__3, .f3__subdiv__4{
-   width: 220px;
+   width: 210px;
 }
 
 }
@@ -675,7 +675,7 @@ display: none;
         margin-top: 5px;}
 
         .course-card1, .course-card2, .course-card3, .course-card4{
-    width: 42%;
+    width: 40%;
     height: 320px;
     padding: 20px;
 }
@@ -692,9 +692,10 @@ display: none;
 
 .course-card1 img, .course-card2 img, .course-card3 img, .course-card4 img{
     height: 60%;
+       
 }
 .popular__course-card1, .popular__course-card2, .popular__course-card3, .popular__course-card4, .popular__course-card5, .popular__course-card6, .popular__course-card7, .popular__course-card8, .popular__course-card9, .popular__course-card10{
-    width: 42%;
+    width: 40%;
     height: 320px;
     padding: 20px;
 }
@@ -723,7 +724,7 @@ margin-top: 20px;
 
 
 
-@media screen and (max-width:600px){
+@media screen and (min-width:400px) and (max-width:600px){
 body{
     font-size: 10px;
 }
@@ -775,7 +776,7 @@ margin-left: 30px;
     font-size: 10px;
 }
 .course-card1, .course-card2, .course-card3, .course-card4{
-    width: 42%;
+    width: 40%;
     height: 240px;
     /* margin: 0 2px 0 2px; */
 }
@@ -787,33 +788,68 @@ margin-left: 30px;
     display: none;
 }
 
+.popular__container{
+    margin:10px 0 10px 0 ;
+    gap:0;
+}
 .popular__course-card1, .popular__course-card2, .popular__course-card3, .popular__course-card4, .popular__course-card5, .popular__course-card6, .popular__course-card7, .popular__course-card8, .popular__course-card9, .popular__course-card10{
- width: 42%;
     height: 240px;
+    flex-basis: 40%;
 }
 
 .popular__course-card1 img,.popular__course-card2 img,.popular__course-card3 img,.popular__course-card4 img,.popular__course-card5 img,.popular__course-card6 img,.popular__course-card7 img,.popular__course-card8 img,.popular__course-card9 img,.popular__course-card10 img{
-
+height: 60%;
+margin-bottom: 10px;
 }
 
-.subdiv__1, .subdiv__2, .subdiv__3, .subdiv__4, .subdiv__5, .subdiv__6, .subdiv__7, .subdiv__8{
-    width: 215px;
-    padding: 15px;
-    /* font-size: 10px; */
+.footer__s2 h3{
+    font-size: 16px;
 }
+.footer__s2__subdiv{
+    display: block;
+   }
+
+.subdiv__1 , .subdiv__2 , .subdiv__3 , .subdiv__4 , .subdiv__5 , .subdiv__6 , .subdiv__7 , .subdiv__8 {
+    width:98%;
+    border-bottom: 1px solid white;
+  padding:0 0 8px 0;
+  margin-bottom: 0;
+}
+.subdiv__1__sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.subdiv__1 a, .subdiv__2 a, .subdiv__3 a, .subdiv__4 a, .subdiv__5 a, .subdiv__6 a, .subdiv__7 a, .subdiv__8 a{
+    display: none;
+}
+
+
+.subdiv__1 h4, .subdiv__2 h4, .subdiv__3 h4, .subdiv__4 h4, .subdiv__5 h4, .subdiv__6 h4, .subdiv__7 h4, .subdiv__8 h4{
+font-size: 14px;
+  }
+
 
 .footer__s1{
     font-size: 14px;
 }
-.f3__subdiv__1, .f3__subdiv__2, .f3__subdiv__3, .f3__subdiv__4{
-   width: 125px;
+
+
+.f3__subdiv__1 , .f3__subdiv__2 , .f3__subdiv__3 ,.f3__subdiv__4 {
+width: 20%;
+padding: 10px 0 10px 10px;
 }
 
+.f3__subdiv__1 h4, .f3__subdiv__2 h4, .f3__subdiv__3 h4,.f3__subdiv__4 h4{
+  font-size: 14px;
+}
 
-
-
-
-
+.f3__subdiv__1 p, .f3__subdiv__2 p, .f3__subdiv__3 p,.f3__subdiv__4 p{
+font-size: 8px;
+}
 
 }
 
