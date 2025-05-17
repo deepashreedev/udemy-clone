@@ -1230,7 +1230,7 @@ opacity: 1;
 
 /* ------------------------------------------------------- */
 
-@media screen and (min-width:425px) and (max-width:599px) {
+@media screen and (min-width:401px) and (max-width:599px) {
     .body {
         font-size: 10px;
     }
@@ -1406,7 +1406,7 @@ opacity: 1;
 
 /* ----------------------------------------------------------------- */
 
-@media screen and (min-width:280px) and (max-width:424px) {
+@media screen and (min-width:300px) and (max-width:430px) {
     .body {
         font-size: 10px;
     }
@@ -1486,12 +1486,245 @@ opacity: 1;
     .course-card2,
     .course-card3,
     .course-card4 {
-        width: 70%;
+        width: 40%;
         height: 280px;
     }
 
     .course-card5 {
         display: none;
+    }
+
+    .course-card1 img, .course-card2 img, .course-card3 img ,.course-card4 img{
+height: 38%;
+    }
+
+    .popular__course-card1 h3,
+    .popular__course-card2 h3,
+    .popular__course-card3 h3,
+    .popular__course-card4 h3,
+    .popular__course-card5 h3,
+    .popular__course-card6 h3,
+    .popular__course-card7 h3,
+    .popular__course-card8 h3,
+    .popular__course-card9 h3,
+    .popular__course-card10 h3 {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #1D1E27;
+    }
+
+    .popular__course-card1,
+    .popular__course-card2,
+    .popular__course-card3,
+    .popular__course-card4,
+    .popular__course-card5,
+    .popular__course-card6,
+    .popular__course-card7,
+    .popular__course-card8,
+    .popular__course-card9,
+    .popular__course-card10 {
+        flex-basis: 38%;
+        height: 280px;
+    }
+
+    .popular__course-card1 img,
+    .popular__course-card2 img,
+    .popular__course-card3 img,
+    .popular__course-card4 img,
+    .popular__course-card5 img,
+    .popular__course-card6 img,
+    .popular__course-card7 img,
+    .popular__course-card8 img,
+    .popular__course-card9 img,
+    .popular__course-card10 img{
+        
+        height: 38%;
+        padding:0;
+    }
+
+
+    .footer-section {
+        margin-top: 10%;
+    }
+
+    .subdiv__1 a,
+    .subdiv__2 a,
+    .subdiv__3 a,
+    .subdiv__4 a,
+    .subdiv__5 a,
+    .subdiv__6 a,
+    .subdiv__7 a,
+    .subdiv__8 a {
+        display: none;
+    }
+
+    .subdiv__1,
+    .subdiv__2,
+    .subdiv__3,
+    .subdiv__4,
+    .subdiv__5,
+    .subdiv__6,
+    .subdiv__7,
+    .subdiv__8 {
+        border-bottom: 1px solid white;
+        width: 98%;
+        padding: 0 0 8px 0;
+        margin-bottom: 0;
+
+    }
+
+    .subdiv__1__sec1 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .subdiv__1__sec1 i {
+        display: block;
+    }
+
+    .subdiv__1__sec1 h4 {
+        font-size: 14px;
+    }
+
+  
+.footer__s1__one, .footer__s1__two{
+         font-size: 10px;
+}
+
+/* .footer__s3{
+    padding:20px 10px 20px 10px;
+   
+} */
+
+}
+.f3__subdiv__1 h4, .f3__subdiv__2 h4, .f3__subdiv__3 h4, .f3__subdiv__4 h4{
+    font-size:8px;
+}
+
+.f3__subdiv__1 a,
+    .f3__subdiv__2 a,
+    .f3__subdiv__3 a,
+    .f3__subdiv__4 a{
+font-size: 8px;
+    }
+
+    .footer__s4__subdiv{
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+
+       
+            }
+
+       .f4__subdiv__1 h1{
+        font-size: 18px;
+          margin: 10px;
+      
+       } 
+    .f4__subdiv__2,.f4__subdiv__3{
+        font-size: 12px;
+       margin: 20px 50px 3px 50px;
+    }
+
+
+
+/* -------------------------------------------------- */
+
+@media screen and (max-width:299px) {
+    
+
+    .body {
+        font-size: 10px;
+    }
+
+    .menu,
+    .navbar__s4 {
+        display: block;
+    }
+
+    .navbar__s2,
+    .navbar__s3 {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 4px solid rgba(158, 158, 168, 0.149);
+    }
+
+    .navbar__s4 i {
+        margin-left: 10px;
+    }
+
+    .categories {
+        display: none;
+    }
+
+
+    .sale-image__offer {
+        position: relative;
+        width: 85%;
+        box-shadow: none;
+        border: 0;
+        left: auto;
+        -ms-zoom-animation: none;
+        margin-left: 10px;
+        height: 100px;
+        top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sale-image__offer h1 {
+        font-size: 12px;
+    }
+
+    .sale-image__offer p {
+        font-size: 10px;
+    }
+
+    .sale-image__offer button {
+        font-size: 18px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+
+    .sale-image {
+        height: fit-content;
+    }
+
+.recommended{
+    margin-top: 20px;
+}
+
+    .recommended__title,
+    .topics__title,
+    .popular__title {
+        font-size: 18px;
+    }
+
+    .course-card1 h3,
+    .course-card2 h3,
+    .course-card3 h3,
+    .course-card4 h3,.course-card5 {
+        font-size: 12px;
+    }
+
+    .course-card1,
+    .course-card2,
+    .course-card3,
+    .course-card4 ,
+    .course-card5{
+        width: 70%;
+        height: 280px;
+    }
+
+ 
+
+    .course-card1 img, .course-card2 img, .course-card3 img ,.course-card4 img{
+height: 38%;
     }
 
     .popular__course-card1 h3,
@@ -1522,6 +1755,22 @@ opacity: 1;
         width: 70%;
         height: 280px;
     }
+
+    .popular__course-card1 img,
+    .popular__course-card2 img,
+    .popular__course-card3 img,
+    .popular__course-card4 img,
+    .popular__course-card5 img,
+    .popular__course-card6 img,
+    .popular__course-card7 img,
+    .popular__course-card8 img,
+    .popular__course-card9 img,
+    .popular__course-card10 img{
+        
+        height: 38%;
+        padding:0;
+    }
+
 
     .footer-section {
         margin-top: 10%;
@@ -1572,10 +1821,41 @@ opacity: 1;
     .f3__subdiv__2,
     .f3__subdiv__3,
     .f3__subdiv__4 {
-        flex-basis: 20%;
+        flex-basis: 5%;
         margin: 5px;
-        flex-grow: 1;
+        font-size: 10px;
     }
 
+.footer__s1__one, .footer__s1__two{
+         font-size: 10px;
+}
 
+.f3__subdiv__1 h4, .f3__subdiv__2 h4, .f3__subdiv__3 h4, .f3__subdiv__4 h4{
+    font-size: 8px;
+}
+
+.f3__subdiv__1 a,
+    .f3__subdiv__2 a,
+    .f3__subdiv__3 a,
+    .f3__subdiv__4 a{
+font-size: 8px;
+    }
+
+    .footer__s4__subdiv{
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+
+       
+            }
+
+       .f4__subdiv__1 h1{
+        font-size: 18px;
+          margin: 10px;
+      
+       } 
+    .f4__subdiv__2,.f4__subdiv__3{
+        font-size: 12px;
+       margin: 10px 10px 3px 10px;
+    }
 }
