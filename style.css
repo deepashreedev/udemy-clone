@@ -1598,6 +1598,11 @@ height: 38%;
    
 } */
 
+.f3__subdiv__1, .f3__subdiv__2, .f3__subdiv__3, .f3__subdiv__4{
+    flex-basis: 15%;
+    margin: 5px;
+}
+
 }
 .f3__subdiv__1 h4, .f3__subdiv__2 h4, .f3__subdiv__3 h4, .f3__subdiv__4 h4{
     font-size:8px;
